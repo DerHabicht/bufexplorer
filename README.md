@@ -1,3 +1,9 @@
+*WARNING*: This is a fork of the original project. I created this fork to
+accommodate some odd settings in my personal vimrc file. You probably don't
+want this version of the plugin. You probably want the original. Go
+[here](https://github.com/jlanzarotta/bufexplorer) to get your hands on that.
+
+
 bufexplorer
 ===========
 

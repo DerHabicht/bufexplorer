@@ -507,10 +507,10 @@ function! s:MapKeys()
     nnoremap <script> <silent> <nowait> <buffer> <s-cr>        :call <SID>SelectBuffer("tab")<CR>
     nnoremap <script> <silent> <nowait> <buffer> a             :call <SID>ToggleFindActive()<CR>
     nnoremap <script> <silent> <nowait> <buffer> b             :call <SID>SelectBuffer("ask")<CR>
-    nnoremap <script> <silent> <nowait> <buffer> d             :call <SID>RemoveBuffer("delete")<CR>
-    xnoremap <script> <silent> <nowait> <buffer> d             :call <SID>RemoveBuffer("delete")<CR>
-    nnoremap <script> <silent> <nowait> <buffer> D             :call <SID>RemoveBuffer("wipe")<CR>
-    xnoremap <script> <silent> <nowait> <buffer> D             :call <SID>RemoveBuffer("wipe")<CR>
+    nnoremap <script> <silent> <nowait> <buffer> j             :call <SID>RemoveBuffer("delete")<CR>
+    xnoremap <script> <silent> <nowait> <buffer> j             :call <SID>RemoveBuffer("delete")<CR>
+    nnoremap <script> <silent> <nowait> <buffer> J             :call <SID>RemoveBuffer("wipe")<CR>
+    xnoremap <script> <silent> <nowait> <buffer> J             :call <SID>RemoveBuffer("wipe")<CR>
     nnoremap <script> <silent> <nowait> <buffer> f             :call <SID>SelectBuffer("split", "sb")<CR>
     nnoremap <script> <silent> <nowait> <buffer> F             :call <SID>SelectBuffer("split", "st")<CR>
     nnoremap <script> <silent> <nowait> <buffer> m             :call <SID>MRUListShow()<CR>
@@ -521,8 +521,8 @@ function! s:MapKeys()
     nnoremap <script> <silent> <nowait> <buffer> R             :call <SID>ToggleShowRelativePath()<CR>
     nnoremap <script> <silent> <nowait> <buffer> s             :call <SID>SortSelect()<CR>
     nnoremap <script> <silent> <nowait> <buffer> S             :call <SID>ReverseSortSelect()<CR>
-    nnoremap <script> <silent> <nowait> <buffer> t             :call <SID>SelectBuffer("tab")<CR>
-    nnoremap <script> <silent> <nowait> <buffer> T             :call <SID>ToggleShowTabBuffer()<CR>
+    nnoremap <script> <silent> <nowait> <buffer> k             :call <SID>SelectBuffer("tab")<CR>
+    nnoremap <script> <silent> <nowait> <buffer> K             :call <SID>ToggleShowTabBuffer()<CR>
     nnoremap <script> <silent> <nowait> <buffer> u             :call <SID>ToggleShowUnlisted()<CR>
     nnoremap <script> <silent> <nowait> <buffer> v             :call <SID>SelectBuffer("split", "vr")<CR>
     nnoremap <script> <silent> <nowait> <buffer> V             :call <SID>SelectBuffer("split", "vl")<CR>
